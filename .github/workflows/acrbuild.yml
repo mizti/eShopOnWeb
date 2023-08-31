@@ -33,4 +33,3 @@ jobs:
 
     - name: Logout from Azure CLI
       run: az logout
-      
