@@ -1,4 +1,4 @@
-name: Docker Build and Push to Azure Container Registry
+name: Docker Build and Push to Azure Container Registry(OIDC)
 
 on:
   push:
@@ -13,6 +13,7 @@ env:
 jobs:
   build_and_push:
     runs-on: ubuntu-latest
+    environment: production
 
     steps:
     - name: Checkout code
