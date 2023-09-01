@@ -13,7 +13,6 @@ env:
 jobs:
   build_and_push:
     runs-on: ubuntu-latest
-    environment: production
 
     steps:
     - name: Checkout code
